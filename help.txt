@@ -1,0 +1,19 @@
+Description
+
+Cryptonomicon is a utility that allows you to find out the exact rate of cryptocurrencies.
+By selecting the target cryptocurrency and a list of cryptocurrencies, the user receives the exchange rate for each of the latter.
+
+Launching the program
+
+The program is run from the command line with the provision of input parameters:
+
+java cryptonomicon.jar [OPTIONS] <target Currency Code> <currency Codes>
+
+Where [OPTIONS] are optional options for additional application commands:
+
+--help - displays help for the program, options, and how to run.
+--list - a list of target cryptocurrency codes supported by the program with a description.
+
+At the same time:
+<target Currency Code> - target cryptocurrency code
+<currency Codes> - list of cryptocurrency codes to be exchanged for the target currency
